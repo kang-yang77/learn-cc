@@ -149,6 +149,8 @@ TOOL_HANDLERS = {
     "edit_file": run_edit, "glob": run_glob, "todo_write": run_todo_write,
 }
 
+
+
 HOOKS = {"UserPromptSubmit": [], "PreToolUse": [], "PostToolUse": [], "Stop": []}
 
 def register_hook(event: str, callback):
